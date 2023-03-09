@@ -5,8 +5,8 @@ const bodyparser = require("body-parser");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-require("../src/db/Database");
-const Register = require("../src/models/Schema");
+require("./db/Database");
+const Register = require("./models/Schema");
 
 // const index_path = path.join(__dirname, "../public");
 
